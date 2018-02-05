@@ -12,6 +12,12 @@ Changes are categorized as follows:
 
 ## [Unreleased]
 
+## 2018-02-05, Version 1.0.0
+
+* 1 major enhancement:
+
+  * js: add core logic
+
 ## 2018-02-05, Version 0.1.0 (unstable)
 
 * 2 minor enhancements:
