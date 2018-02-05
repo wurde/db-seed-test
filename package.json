@@ -1,0 +1,44 @@
+{
+  "name": "db-seed-test",
+  "version": "0.1.0",
+  "description": "Loads the seed data for the test database.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --no-colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wurde/db-seed-test.git"
+  },
+  "bin": {
+    "db_seed_test": "./index.js"
+  },
+  "files": [
+    "package.json",
+    "README.md",
+    "LICENSE.txt",
+    "CHANGELOG.md",
+    "index.js",
+    "test.js"
+  ],
+  "keywords": [
+    "db",
+    "task"
+  ],
+  "os": [
+    "darwin",
+    "linux"
+  ],
+  "engines": {
+    "node": ">= 8"
+  },
+  "bugs": {
+    "url": "https://github.com/wurde/db-seed-test/issues"
+  },
+  "homepage": "https://github.com/wurde/db-seed-test#readme",
+  "author": "Andy Bettisworth <andy@accreu.com> (https://andybettisworth.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^5.0.0"
+  }
+}
