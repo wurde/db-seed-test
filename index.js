@@ -6,7 +6,11 @@
  * Set environment variables.
  */
 
-process.env.NODE_ENV = "test"
+process.env.NODE_ENV = (process.env.NODE_ENV || "test")
+
+if (process.env.NODE_ENV.search(/test/i) < 0) {
+  process.env.NODE_ENV = "test"
+}
 
 /**
  * Dependencies
